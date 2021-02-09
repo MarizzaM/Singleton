@@ -41,9 +41,7 @@ namespace HWThreadLocksAndMonitor
 
         static void Main(string[] args)
         {
-
-            Console.WriteLine(Singleton.GetInstance().GetTime());
-
+            Console.WriteLine($"Time in Isreal {Singleton.GetInstance().GetTime()}");
         }
     }
 }
