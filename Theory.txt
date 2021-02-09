@@ -1,0 +1,38 @@
+﻿1
+The suspend() method of thread class puts the thread from running to waiting state.
+The resume () method resume the suspended thread
+
+Suspend and Resume functions are deprecated, becouse deadlock can occur when using them
+
+2
+The purpose of Wait and Pulse is to provide a simple signaling mechanism: Wait blocks until it receives notification from another thread
+Pulse provides that notification
+A call to Pulse() resumes the first thread in the queue of threads waiting for the lock.
+A call to PulseAll signals the release of the lock to all waiting threads.
+
+3
+A race condition occurs when two or more threads are able to access shared data and they try to change it at the same time.
+
+4
+A deadlock is a situation where an application locks up because two or more activities are waiting for each other to finish.
+
+5
+One must specify a synchronizing object when calling Wait or Pulse
+
+6
+Design patterns are solutions to software design problems you find again and again in real-world application development. 
+The 23 Gang of Four (GoF) patterns are generally considered the foundation for all other patterns.
+7
+The Singleton pattern assures only a single instance (the singleton) of the class can be created
+8
+            - 1 instance of the class [static]
+            - 2 acess will be using a static method
+            - 3 every instance will be the same
+            - 4 impossible to create more then 1 object
+            - 5 thread-safe
+            - 6 cannot change the singleton
+
+
+
+
+
